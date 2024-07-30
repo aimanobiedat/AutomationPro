@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="sedra.wallet.test(failed)">
+    <classes>
+      <class name="Corporate.smoketest.Accounts">
+        <methods>
+          <include name="launcheDriver"/>
+          <include name="addAccountIndSuccessfully"/>
+          <include name="CashOutTransactionSuccessfully"/>
+          <include name="closeDriver"/>
+          <include name="CashInTransactionSuccessfully"/>
+        </methods>
+      </class> <!-- smoketest.sedra.wallet.PSP.AccountIndv -->
+    </classes>
+  </test> <!-- sedra.wallet.test(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

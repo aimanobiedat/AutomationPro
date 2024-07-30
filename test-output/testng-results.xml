@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-28T06:08:26Z" name="Default Suite" finished-at="2023-02-28T06:13:47Z" duration-ms="321013">
+    <groups>
+    </groups>
+    <test started-at="2023-02-28T06:08:26Z" name="sedra.wallet.test" finished-at="2023-02-28T06:13:47Z" duration-ms="321013">
+      <class name="Corporate.smoketest.Accounts">
+        <test-method is-config="true" signature="launcheDriver()[pri:0, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:08:26Z" name="launcheDriver" finished-at="2023-02-28T06:08:35Z" duration-ms="8781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcheDriver -->
+        <test-method signature="openAccountIndividual()[pri:1, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:08:35Z" name="openAccountIndividual" description="this to test open customer corp page " finished-at="2023-02-28T06:09:09Z" duration-ms="33682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountIndividual -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:09:09Z" name="closeDriver" finished-at="2023-02-28T06:09:09Z" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="launcheDriver()[pri:0, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:09:09Z" name="launcheDriver" finished-at="2023-02-28T06:09:11Z" duration-ms="2382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcheDriver -->
+        <test-method signature="openAddAccountIndPage()[pri:2, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:09:11Z" name="openAddAccountIndPage" description="this to test open add Account Ind page " finished-at="2023-02-28T06:09:45Z" duration-ms="33999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAddAccountIndPage -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:09:45Z" name="closeDriver" finished-at="2023-02-28T06:09:45Z" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="launcheDriver()[pri:0, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:09:45Z" name="launcheDriver" finished-at="2023-02-28T06:09:48Z" duration-ms="2416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcheDriver -->
+        <test-method signature="addAccountIndSuccessfully()[pri:3, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:09:48Z" name="addAccountIndSuccessfully" description="this to test add Account page " finished-at="2023-02-28T06:10:07Z" duration-ms="19415" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//li[normalize-space()='Close loop wallet']"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.3', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6a859628492afece9a80330d8b64429c, findElement {using=xpath, value=//li[normalize-space()='Close loop wallet']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /var/folders/bz/6f_n48n94xj...}, goog:chromeOptions: {debuggerAddress: localhost:49602}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49602/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a859628492afece9a80330d8b64429c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[normalize-space()='Close loop wallet']"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.3', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6a859628492afece9a80330d8b64429c, findElement {using=xpath, value=//li[normalize-space()='Close loop wallet']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /var/folders/bz/6f_n48n94xj...}, goog:chromeOptions: {debuggerAddress: localhost:49602}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49602/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a859628492afece9a80330d8b64429c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy15.click(Unknown Source)
+at Corporate.pages.Accounts.CloseLoopWallet(AccountIndv.java:229)
+at Corporate.smoketest.Accounts.addAccountIndSuccessfully(AccountIndividual.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAccountIndSuccessfully -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:10:07Z" name="closeDriver" finished-at="2023-02-28T06:10:07Z" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="launcheDriver()[pri:0, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:10:07Z" name="launcheDriver" finished-at="2023-02-28T06:10:10Z" duration-ms="2288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcheDriver -->
+        <test-method signature="openAccountIndActions()[pri:4, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:10:10Z" name="openAccountIndActions" description="this to test open Actions for account " finished-at="2023-02-28T06:10:43Z" duration-ms="33378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountIndActions -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:10:43Z" name="closeDriver" finished-at="2023-02-28T06:10:43Z" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="launcheDriver()[pri:0, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:10:43Z" name="launcheDriver" finished-at="2023-02-28T06:10:45Z" duration-ms="2282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcheDriver -->
+        <test-method signature="openAccountIndDetails()[pri:5, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:10:45Z" name="openAccountIndDetails" description="this to test open  account details " finished-at="2023-02-28T06:11:20Z" duration-ms="34430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountIndDetails -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:11:20Z" name="closeDriver" finished-at="2023-02-28T06:11:20Z" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="launcheDriver()[pri:0, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:11:20Z" name="launcheDriver" finished-at="2023-02-28T06:11:22Z" duration-ms="2322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcheDriver -->
+        <test-method signature="openCashInPopup()[pri:6, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:11:22Z" name="openCashInPopup" description="this to test open Cash In popup for account " finished-at="2023-02-28T06:11:56Z" duration-ms="33498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCashInPopup -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:11:56Z" name="closeDriver" finished-at="2023-02-28T06:11:56Z" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="launcheDriver()[pri:0, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:11:56Z" name="launcheDriver" finished-at="2023-02-28T06:11:58Z" duration-ms="2274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcheDriver -->
+        <test-method signature="CashInTransactionSuccessfully()[pri:7, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:11:58Z" name="CashInTransactionSuccessfully" description="this to test  Cash In Successfully for account " finished-at="2023-02-28T06:12:34Z" duration-ms="35671" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Confirm')]"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.3', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d928e715753034c375d4e05718c4d847, findElement {using=xpath, value=//button[contains(text(),'Confirm')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /var/folders/bz/6f_n48n94xj...}, goog:chromeOptions: {debuggerAddress: localhost:49682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49682/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d928e715753034c375d4e05718c4d847]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Confirm')]"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.3', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d928e715753034c375d4e05718c4d847, findElement {using=xpath, value=//button[contains(text(),'Confirm')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /var/folders/bz/6f_n48n94xj...}, goog:chromeOptions: {debuggerAddress: localhost:49682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49682/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d928e715753034c375d4e05718c4d847
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy15.click(Unknown Source)
+at Corporate.pages.Accounts.ConfirmCashInTRX(AccountIndv.java:307)
+at Corporate.smoketest.Accounts.CashInTransactionSuccessfully(AccountIndividual.java:151)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CashInTransactionSuccessfully -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:12:34Z" name="closeDriver" finished-at="2023-02-28T06:12:34Z" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="launcheDriver()[pri:0, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:12:34Z" name="launcheDriver" finished-at="2023-02-28T06:12:36Z" duration-ms="2248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcheDriver -->
+        <test-method signature="openCashOutPopup()[pri:8, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:12:36Z" name="openCashOutPopup" description="this to test open Cash Out popup for account " finished-at="2023-02-28T06:13:10Z" duration-ms="33464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCashOutPopup -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:13:10Z" name="closeDriver" finished-at="2023-02-28T06:13:10Z" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="launcheDriver()[pri:0, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:13:10Z" name="launcheDriver" finished-at="2023-02-28T06:13:12Z" duration-ms="1861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launcheDriver -->
+        <test-method signature="CashOutTransactionSuccessfully()[pri:9, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:13:12Z" name="CashOutTransactionSuccessfully" description="this to test  Cash Out Successfully for account " finished-at="2023-02-28T06:13:47Z" duration-ms="35428" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Confirm')]"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.3', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eea877951132a13f17d937e207354288, findElement {using=xpath, value=//button[contains(text(),'Confirm')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /var/folders/bz/6f_n48n94xj...}, goog:chromeOptions: {debuggerAddress: localhost:49720}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49720/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eea877951132a13f17d937e207354288]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Confirm')]"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.3', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eea877951132a13f17d937e207354288, findElement {using=xpath, value=//button[contains(text(),'Confirm')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /var/folders/bz/6f_n48n94xj...}, goog:chromeOptions: {debuggerAddress: localhost:49720}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49720/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eea877951132a13f17d937e207354288
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy15.click(Unknown Source)
+at Corporate.pages.Accounts.ConfirmCashInTRX(AccountIndv.java:307)
+at Corporate.smoketest.Accounts.CashOutTransactionSuccessfully(AccountIndividual.java:192)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CashOutTransactionSuccessfully -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:sedra.wallet.smoketest.AccountIndividual@67c27493]" started-at="2023-02-28T06:13:47Z" name="closeDriver" finished-at="2023-02-28T06:13:47Z" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- smoketest.sedra.wallet.PSP.AccountIndv -->
+    </test> <!-- sedra.wallet.test -->
+  </suite> <!-- Default Suite -->
+</testng-results>
